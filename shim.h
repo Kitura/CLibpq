@@ -14,12 +14,10 @@
  * limitations under the License.
  **/
 
-import PackageDescription
 
-let package = Package(
-    name: "CLibpq",
-    pkgConfig: "libpq",
-    providers: [
-        .Apt("libpq-dev")
-    ]
-)
+#ifndef libpq_shim_h
+#define libpq_shim_h
+
+#import <libpq-fe.h>
+
+#endif
