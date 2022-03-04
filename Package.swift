@@ -1,3 +1,6 @@
+// swift-tools-version:5.0
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
 /**
  * Copyright IBM Corporation and the Kitura project authors 2016-2020
  *
